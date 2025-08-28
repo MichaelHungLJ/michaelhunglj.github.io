@@ -1,0 +1,84 @@
+---
+layout: default
+title: "Home"
+---
+
+<div class="hero-section">
+    <h1>Hi, I'm Michael 👋</h1>
+    <p class="hero-subtitle">Android Developer based in Singapore, exploring Kotlin & LangChain</p>
+    <div class="hero-buttons">
+        <a href="{{ '/about/' | relative_url }}" class="btn-primary">About Me</a>
+        <a href="{{ '/posts/' | relative_url }}" class="btn-secondary">Read Posts</a>
+    </div>
+</div>
+
+<section class="recent-posts">
+    <h2>Recent Posts</h2>
+    <div class="posts-grid">
+        {% for post in site.posts limit:3 %}
+        <article class="post-card">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+            <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
+<style>
+.hero-section {
+    text-align: center;
+    padding: 4rem 0;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 3rem;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.btn-secondary {
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    transform: translateY(-2px);
+}
+
+.recent-posts h2 {
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.posts-grid {
+    display: grid;
