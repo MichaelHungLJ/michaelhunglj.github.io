@@ -19,5 +19,3 @@ This is my first post on my new Jekyll-powered blog! I'm excited to share my jou
 ## Code Example
 
 Here's a simple Kotlin function I've been working with:
-
-```kotlin
