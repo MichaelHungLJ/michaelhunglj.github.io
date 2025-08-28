@@ -1,29 +1,23 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2025-08-23 15:53:33 +0800
-categories: jekyll update
+layout: default
+title: "Welcome to My Blog!"
+date: 2025-08-23
+tags: [jekyll, blog, first-post]
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# Welcome to My Blog!
 
-`YEAR-MONTH-DAY-title.MARKUP`
+This is my first post on my new Jekyll-powered blog! I'm excited to share my journey as an Android developer and my explorations with Kotlin and LangChain.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## What You'll Find Here
 
-Jekyll also offers powerful support for code snippets:
+- **Android Development**: Tips, tricks, and insights from my work
+- **Tech Explorations**: My adventures with new technologies
+- **Personal Projects**: Side projects and experiments
+- **Learning Journey**: Documenting what I learn along the way
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## Code Example
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Here's a simple Kotlin function I've been working with:
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+```kotlin
