@@ -84,11 +84,38 @@ body {
   cursor: pointer;
   padding: 0.5rem;
 }
-
 .nav-toggle {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.nav-toggle span {
+    width: 100%;
+    height: 3px;
+    background: var(--text-color);
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
+
+.nav-toggle.active span:first-child {
+    transform: rotate(45deg);
+}
+
+.nav-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg);
 }
 
 .bar {
