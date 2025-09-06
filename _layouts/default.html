@@ -14,7 +14,13 @@
     </main>
     
     <footer class="footer">
-        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Built with Jekyll.</p>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/michaelhunglj" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+                <a href="https://github.com/michaelhunglj" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+            </div>
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Built with Jekyll.</p>
+        </div>
     </footer>
 
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>

@@ -5,10 +5,18 @@ title: "Home"
 
 <div class="hero-section">
     <h1>Hi, I'm Michael 👋</h1>
-    <p class="hero-subtitle">Android Developer based in Singapore, exploring Kotlin & LangChain</p>
+    <p class="hero-subtitle">
+        Android Developer based in Singapore
+        <br>Documenting my journey in tech, life, and everything in between...
+    </p>
+    <p class="hero-subtitle">
+        Follow me on <a href="https://linkedin.com/in/michaelhunglj">LinkedIn</a>
+    </p>
+    
+
     <div class="hero-buttons">
-        <a href="{{ '/about/' | relative_url }}" class="btn-primary">About Me</a>
-        <a href="{{ '/posts/' | relative_url }}" class="btn-secondary">Read Posts</a>
+        <!-- <a href="{{ '/about/' | relative_url }}" class="btn-primary">About Me</a> -->
+        <a href="{{ '/posts/' | relative_url }}" class="btn-primary">Read Posts</a>
     </div>
 </div>
 
@@ -19,9 +27,20 @@ title: "Home"
         <article class="post-card">
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
             <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-            <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+
+            {% if post.tags.size > 0 %}
+            <div class="post-tags-home">
+                {% for tag in post.tags %}
+                                    <a href="{{ '/posts/' | relative_url }}?tag={{ tag }}" class="tag-home tag-link">{{ tag }}</a>
+
+                    <!-- <span class="tag-home clickable-tag" data-tag="{{ tag }}">{{ tag }}</span> -->
+                {% endfor %}
+            </div>
+            {% endif %}
+
         </article>
         {% endfor %}
     </div>
 </section>
+
+
