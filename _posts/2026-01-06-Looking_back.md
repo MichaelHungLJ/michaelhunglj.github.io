@@ -6,7 +6,7 @@ tags: [Personal]
 ---
 
 <div align="center">
-Coming into 2026, I wanted to look back at my life in 2025. It was a difficult year. I had many doubts about myself.
+Coming into 2026, I wanted to look back at my life in 2025. It was a difficult year. <i>I had many doubts about myself.</i>
 </div>
 
 &nbsp;
@@ -19,7 +19,7 @@ Going into Q2, it was honestly one of the toughest quarters of the year. I was b
 
 I felt lost and worried, despite knowing I was in a privileged position. I needed isolation to get away from all the noise. Sometimes, I looked at other people and wondered how could they live knowing the ground they stood on could crumble any time. I know I shouldn’t compare myself to others, but that was how I felt.
 
-<i>Even in a privileged position, I know it wouldn’t last forever.</i> I needed to find my footing and fast. But between the burnout, the constant noise, and the uncertainty of what to do next. I didn't want to talk to anyone. I just wanted to get away from the noise and find some clarity.
+<i>Even in a privileged position, I know it wouldn’t last forever.</i> I needed to find my footing and fast. But between the burnout, the constant noise, and the uncertainty of what to do next. I didn't want to talk to anyone. I just wanted to get away from the noise and find some space to reflect.
 
 ---
 &nbsp;
