@@ -50,6 +50,7 @@ navigation:
   #   url: "/projects/"
   # - title: "About"
   #   url: "/about/"
+future: true
 
 # Exclude files from build
 exclude:
