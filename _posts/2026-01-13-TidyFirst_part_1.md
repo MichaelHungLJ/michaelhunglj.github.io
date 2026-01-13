@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tidy First - part 1"
-date: 2026-01-06
+date: 2026-01-13
 tags: [Android, Coding]
 ---
 
