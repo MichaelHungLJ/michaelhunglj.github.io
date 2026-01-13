@@ -2,7 +2,7 @@
 layout: post
 title: "Tidy First - part 1"
 date: 2026-01-06
-tags: [Coding]
+tags: [Android, Coding]
 ---
 
 Like many “new year, new me” attempts, I decided to start the year by writing.
